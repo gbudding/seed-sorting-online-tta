@@ -37,9 +37,9 @@ import torchvision.transforms as T
 from PIL import Image
 
 # Local imports (assume src/ on PYTHONPATH at runtime)
-from data.corruptions import get_corruption
-from data.dataset     import IMAGENET_MEAN, IMAGENET_STD, INPUT_SIZE
-from data.drift_sequences import DriftSchedule
+from .corruptions import get_corruption
+from .dataset     import IMAGENET_MEAN, IMAGENET_STD, INPUT_SIZE
+from .drift_sequences import DriftSchedule
 
 
 # ------------------------------------------------------------------
